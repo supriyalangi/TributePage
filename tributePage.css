@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: auto;
+    box-sizing: border-box;
+}
+.container{
+background-color: rgb(173, 167, 167);
+min-height: 100vh;
+border: 10px solid rgb(68, 67, 67);
+
+}
+.content{
+    margin: 0 auto;
+    width: 800px;
+}
+.section-top{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.section-top h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.image-container{
+    border-radius: 40%;
+    overflow: hidden;
+}
+.image-container, img{
+    width: 300px;
+    height: 320px;
+    
+
+}
+.middle-section{
+    margin: 10px;
+padding: 10px;
+text-align: start;
+
+}
+.end-section{
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width:768px) {
+.content{
+    width:600px;
+}
+.image-container, img{
+    width: 200px;
+    height: 220px;
+}
+.section-top{
+    padding-top: 70px;
+}
+.section-top h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+}
+.end-section{
+    font-size: 15px;
+}
+
+}
+
+@media only screen and (max-width:425px) {
+    .content{
+        width:300px;
+    }
+    .image-container, img{
+        width: 100px;
+        height: 120px;
+    }
+    .section-top{
+        padding-top: 50px;
+    }
+    .section-top h1{
+        font-size: 15px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+    }
+    .middle-section{
+        font-size: 10px;
+    }
+    .end-section{
+        font-size: 10px;
+    }
+    }
